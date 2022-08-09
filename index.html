@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+      <nav id="navbar">
+        <header>CSS for beginners</header>
+        <ul>
+          <li>
+            <a class="nav-link" href="#Introduction">Introduction</a></li>
+  <li><a class="nav-link" href="#CSS_What_it_is">CSS What it is</a></li>
+   <li><a class="nav-link" href="#CSS_selected_selectors">CSS selected selectors</a></li>
+    <li><a class="nav-link" href="#CSS_colors">CSS colors</a></li>
+    <li><a class="nav-link" href="#CSS_fonts">CSS fonts</a></li>
+    <li><a class="nav-link" href="#Sources">Sources</a></li>
+    </ul>
+        </nav>
+            <main id="main-doc">
+        <section class="main-section" id="Introduction">
+          <header>Introduction</header>
+          <article>
+            <p>CSS is the language we use to style a Web page, to style and present HTML. CSS is a way, that your web pages look good.</p>
+            </article>
+        </section>
+        <section class="main-section" id="CSS_What_it_is">
+          <header>CSS What it is</header>
+          <article>
+          <p>CSS - Cascading Styles Sheets</p>
+        <ul>
+           <li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</li>
+           <li>CSS saves a lot of work. It can control the layout of multiple web pages all at once</li>
+           <li>External stylesheets are stored in CSS files</li>
+        </ul>
+            </article>
+        </section>
+        <section class="main-section" id="CSS_selected_selectors">
+          <header>CSS selected selectors</header>
+          <article>
+            <p>A CSS selector selects the HTML element(s) you want to style. Let’s look at three different ways you can select HTML elements. </p>
+            <ul>
+              <li>ELEMENT</li>
+              <li>CLASS</li>
+              <li>ID</li>
+              </ul>
+              <p>The first way to select an HTML <span class="selector">element selector</span> is by simply using the name, which is what we did above. </p>
+              <code>p {font-size: 15px;}</code>
+              <p>The <span class="selector">class selector</span> selects HTML elements with a specific class attribute. To select elements with a specific class, write a period (.) character, followed by the class name.Each element can have multiple classes, and each class can also be applied to multiple elements as well.</p>
+              <code>.triangle {width: 200px;}</code>
+              <p>The <span class="selector">id selector</span> uses the id attribute of an HTML element to select a specific element. The id of an element is unique within a page, so the id selector is used to select one unique element! To select an element with a specific id, write a hash (#) character, followed by the id of the element.</p>
+              <code>#green-eyes {color: green;}</code>
+              </article>
+        </section><br>
+        <section class="main-section" id="CSS_colors">
+          <header>CSS colors</header>
+          <article>
+            <p>In CSS, a color can be specified by using few ways. It making our HTML elements look pretty. The easiest way is  use predefined color names, for example: Orange, Black, White,LightGray.</p>
+            <p>We can use color for text or background. Then we have to use different code.</p>
+            <p> CSS Text Color:</p>
+            <code>p {color: white;}</code>
+            <p>CSS Background Color:</p>
+            <code>body {background-color: blue;}</code>
+            <p>In CSS, colors can also be specified using another values:</p>
+            <ul>
+              <li>RGB</li>
+              <li>HEX</li>
+              <li>HSL</li>
+              </ul>
+              <p>And now it's time for example. I'll show how to code the same color but in different ways.</p>
+              <p>An RGB color value represents RED, GREEN, and BLUE light sources.</p>
+              <code>title {color: rgb(0, 255, 0)}</code>
+              <p>A HEX color is specified with: #RRGGBB, where the RR (red), GG (green) and BB (blue) hexadecimal integers specify the components of the color.</p>
+              <code>title {color: #00ff00;}</code>
+              <p>In CSS, a color can be specified using hue, saturation, and lightness (HSL). Hue is a degree on the color wheel from 0 to 360. Saturation and lightness is a percentage value:</p>
+             <code>title {color: hsl(120, 100%, 50%;}</code>   
+            </article>
+        </section><br>
+        <section class="main-section" id="CSS_fonts">
+          <header>CSS fonts</header>
+          <article>
+            <p>Using a font that is easy to read is important. The font adds value to your text. It is also important to choose the correct color and text size for the font.
+              In CSS there are five generic font families: Serif, Sans-serif, Monospace fonts,
+Cursive fonts and Fantasy.Each of them has an impact on the reception of the text (elegance, handwriting or mechanical writing, etc.)
+            </p>
+ <code>body {font-family: Courier, monospace;}</code>
+            </article>
+        </section><br>
+        <section class="main-section" id="Sources">
+          <header>Sources</header>
+          <article>
+           <p>All the informations about CSS  in this page is taken from <a href="https://www.w3schools.com/" target="_blank">W3Schools</a> and <a href="https://www.freecodecamp.org/" target="_blank">FreeCodeCamp</a><p/>
+            </article>
+        </section>
+        </main>
+      </body>
+      </html>
